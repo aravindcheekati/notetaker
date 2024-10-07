@@ -1,0 +1,11 @@
+* {
+    font-family: "Overpass", sans-serif;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
