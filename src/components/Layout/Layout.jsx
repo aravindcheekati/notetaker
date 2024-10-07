@@ -3,7 +3,7 @@ import Navbar from "../Navbar/Navbar";
 const Layout = ({ children }) => {
   return (
     <>
-      <main className="w-full max-w-[1000px] min-h-screen mx-auto my-2 rounded-md shadow bg-white">
+      <main className="w-full max-w-[1000px] min-h-screen mx-auto rounded-md shadow bg-white">
         <header>
           <Navbar />
         </header>
