@@ -104,13 +104,14 @@ const Home = () => {
         >
           <input
             type="text"
-            className="col-span-11 border outline-none px-4 rounded"
+            className="col-span-10 md:col-span-11 border outline-none px-4 rounded"
             placeholder="Enter Note"
             name="text"
             onChange={handleChange}
             value={text}
+            required
           />
-          <button className="px-2 py-3 flex justify-center items-center text-sm gap-x-1 bg-violet-600 text-white rounded text-center">
+          <button className="col-span-2 md:col-span-1 px-2 py-3 flex justify-center items-center text-sm gap-x-1 bg-violet-600 text-white rounded text-center">
             <i className="ri-save-2-fill text-[20px]"></i>
           </button>
         </form>
